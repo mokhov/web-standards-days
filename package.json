@@ -32,5 +32,8 @@
     "run-sequence": "^1.2.0",
     "sass-mq": "^3.3.0-beta.1",
     "vinyl-paths": "^2.1.0"
+  },
+  "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.1"
   }
 }
