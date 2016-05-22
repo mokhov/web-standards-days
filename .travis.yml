@@ -11,3 +11,4 @@ after_success:
                             --iv "$encrypted_349e57e34003_iv" \
                             --path-encrypted-key ".travis-github_deploy_key.enc"
       npm run deploy 
+      echo ~/.ssh/config
