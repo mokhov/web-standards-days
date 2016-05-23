@@ -11,4 +11,4 @@ after_success:
                             --iv "$encrypted_349e57e34003_iv" \
                             --path-encrypted-key ".travis/deploy_key.enc" \
                             --hostname "web-standards.ru"
-      npm run deploy 
+      cat ~/.ssh/config
